@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B031B4C222B00E3000B6134 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B031B4B222B00E3000B6134 /* VideoViewController.swift */; };
 		3B392DF42214F2B500F95CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B392DF32214F2B500F95CE2 /* AppDelegate.swift */; };
 		3B392DF92214F2B500F95CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B392DF72214F2B500F95CE2 /* Main.storyboard */; };
 		3B392DFB2214F2BB00F95CE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B392DFA2214F2BB00F95CE2 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		0244A16A67CBC8D6509F664A /* Pods_flixsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		368F78AC9556FFB61CC0AA8C /* Pods-flixster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.release.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.release.xcconfig"; sourceTree = "<group>"; };
 		36A7467F9E037A04A550E601 /* Pods-flixster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.debug.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.debug.xcconfig"; sourceTree = "<group>"; };
+		3B031B4B222B00E3000B6134 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		3B392DF02214F2B500F95CE2 /* flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B392DF32214F2B500F95CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B392DF82214F2B500F95CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				3B392DF32214F2B500F95CE2 /* AppDelegate.swift */,
 				3B392DF72214F2B500F95CE2 /* Main.storyboard */,
+				3B031B4B222B00E3000B6134 /* VideoViewController.swift */,
 				3B392DFA2214F2BB00F95CE2 /* Assets.xcassets */,
 				3B392DFC2214F2BB00F95CE2 /* LaunchScreen.storyboard */,
 				3B392DFF2214F2BB00F95CE2 /* Info.plist */,
@@ -410,6 +413,7 @@
 			files = (
 				3B955E9222274768001A1A11 /* MovieGridViewController.swift in Sources */,
 				3B955E9022264235001A1A11 /* MovieDetailsViewController.swift in Sources */,
+				3B031B4C222B00E3000B6134 /* VideoViewController.swift in Sources */,
 				3B392DF42214F2B500F95CE2 /* AppDelegate.swift in Sources */,
 				3B5002C2221EFDF600CD9FBC /* MoviesViewController.swift in Sources */,
 				3B6D4752222986F10023FFB1 /* MovieDetailsViewController2.swift in Sources */,
